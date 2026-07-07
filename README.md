@@ -1,245 +1,190 @@
-# 📊 Global Superstore Sales Performance Analysis
+# Global Superstore Business Intelligence Analysis
 
-An end-to-end data analytics project that analyzes Global Superstore sales data to uncover actionable business insights through data cleaning, exploratory data analysis (EDA), SQL, forecasting, and data visualization.
-
----
-
-# 📌 Project Overview
-
-The objective of this project is to evaluate sales performance, profitability, customer behavior, product performance, and market contribution. The analysis aims to transform raw transactional data into meaningful business insights that support strategic decision-making.
-
-This project demonstrates the complete data analysis workflow, from data preparation to business recommendations.
+> **End-to-End Business Intelligence Project using Python, SQL, Google Sheets, and Looker Studio**
 
 ---
 
-# 🎯 Business Questions
+# Overview
 
-This project answers the following business questions:
+Every business collects data, but data alone doesn't help people make better decisions.
 
-- How are sales and profit performing over time?
-- Is the business growing year-over-year?
-- Which countries and markets contribute the most revenue?
-- Which product categories and sub-categories generate the highest profit?
-- How do discounts affect profitability?
-- Which customer segments create the highest business value?
-- Which regions require attention due to low or negative profitability?
-- What are the expected sales trends based on forecasting analysis?
+In this project, I analyzed four years of Global Superstore sales data to understand how the business has been performing, identify what drives profitability, and uncover opportunities for improvement. The project covers the complete analytics workflow—from cleaning raw data and exploring trends to building dashboards and forecasting future sales.
+
+Rather than focusing only on technical implementation, the analysis is designed to answer real business questions and provide insights that could support management decisions.
 
 ---
 
-# 🛠 Tech Stack
+# Business Questions
 
-- Python
-- Pandas
-- NumPy
-- Matplotlib
-- SQL
-- Google Colab
-- Looker Studio *(Dashboard - Coming Soon)*
+The analysis focuses on answering questions that are commonly asked by business stakeholders:
+
+* Is the business growing consistently over time?
+* Which markets contribute the most revenue and profit?
+* Which product categories perform the best?
+* Which customer segments generate the highest value?
+* How does discount affect profitability?
+* Which countries need management attention?
+* Based on historical trends, how might sales perform in the future?
 
 ---
 
-# 📂 Repository Structure
+# Project Workflow
 
-```
-data-analysis-global-superstore/
-│
+Raw Dataset (CSV)
+        │
+        ▼
+Data Cleaning & Validation
+        │
+        ▼
+Exploratory Data Analysis
+        │
+        ▼
+SQL Business Analysis
+        │
+        ▼
+Sales Forecasting
+        │
+        ▼
+Google Sheets Analysis
+        │
+        ▼
+Looker Studio Dashboard
+        │
+        ▼
+Business Recommendations
+
+---
+
+# Tools Used
+
+| Tool                    | Purpose                               |
+| ----------------------- | ------------------------------------- |
+| Python (Pandas & NumPy) | Data cleaning and feature engineering |
+| SQLite                  | SQL analysis                          |
+| Google Colab            | End-to-end analysis                   |
+| Google Sheets           | Pivot analysis and KPI validation     |
+| Looker Studio           | Interactive dashboard                 |
+| Prophet                 | Sales forecasting                     |
+
+---
+
+# Key Findings
+
+After analyzing more than **51,000 transactions** across **147 countries**, several patterns became clear.
+
+### The business showed steady growth
+
+Sales increased consistently throughout the analysis period, and profit followed the same trend. This indicates that the business expanded while maintaining healthy profitability.
+
+---
+
+### APAC was the strongest market
+
+Among all markets, APAC contributed the highest revenue and profit, making it the primary driver of business growth.
+
+---
+
+### Technology generated the highest profit
+
+Although Furniture produced strong sales, its profit margin was relatively low. Technology, on the other hand, delivered the strongest profitability and became the company's most profitable category.
+
+---
+
+### Consumer customers created the highest value
+
+The Consumer segment contributed the largest share of total sales and profit, highlighting the importance of customer retention and engagement.
+
+---
+
+### Discounts require closer monitoring
+
+Orders with higher discounts generally produced lower profitability. While discounts may help increase sales, they can also reduce margins if not managed carefully.
+
+---
+
+### Sales are expected to continue growing
+
+A forecasting model built using historical monthly sales data suggests that the business is likely to continue growing over the next twelve months, although the growth rate may become more stable over time.
+
+---
+
+# Business Recommendations
+
+Based on the analysis, several opportunities could help improve business performance.
+
+* Continue expanding investment in high-performing markets such as APAC.
+* Review pricing and discount strategies to improve overall profit margins.
+* Investigate the Furniture category to understand why profitability remains relatively low.
+* Strengthen retention strategies for high-value customers.
+* Review operations in countries with consistently negative profit.
+
+---
+
+# Dashboard Preview
+
+🚧 **Interactive Looker Studio Dashboard is currently under development and will be added soon.*
+
+Suggested sections:
+
+* Executive Overview
+* Sales Performance
+* Market Analysis
+* Product Performance
+* Customer Analysis
+* Sales Forecast
+
+---
+
+# Repository Structure
+
+```text
 ├── data/
-│   └── superstore_clean.csv
+│   ├── raw/
+│   ├── processed/
+│   └── dashboard/
 │
 ├── notebooks/
-│   ├── Global_Superstore_Analysis.ipynb
-│   └── Global_Superstore_Analysis.py
+│   ├── Data Cleaning
+│   ├── EDA
+│   ├── SQL Analysis
+│   └── Forecasting
 │
-├── sql/
-│   └── analysis.sql
+├── excel/
+│   ├── Pivot Analysis
+│   ├── KPI Validation
+│   └── Dashboard
 │
 ├── dashboard/
-│   └── dashboard_preview.png
+│   └── Looker Studio
 │
-├── requirements.txt
+├── reports/
+│   ├── Executive Presentation
+│   └── Executive Report
 │
 └── README.md
 ```
 
 ---
 
-# 🔄 Project Workflow
+# Skills Demonstrated
 
-Raw Dataset
+This project allowed me to apply an end-to-end Business Intelligence workflow, including:
 
-⬇
-
-Data Cleaning
-
-⬇
-
-Exploratory Data Analysis (EDA)
-
-⬇
-
-Business Insight Generation
-
-⬇
-
-SQL Analysis
-
-⬇
-
-Sales Forecasting
-
-⬇
-
-Interactive Dashboard (Coming Soon)
+* Data cleaning and validation
+* Feature engineering
+* Exploratory Data Analysis (EDA)
+* SQL querying
+* Business analysis
+* Spreadsheet analysis (Pivot Tables & formulas)
+* Dashboard development
+* Sales forecasting
+* Data storytelling
+* Business recommendations
 
 ---
 
-# 📈 Analysis Performed
+# Final Thoughts
 
-This project includes:
-
-- Data cleaning and preprocessing
-- Exploratory Data Analysis (EDA)
-- Sales trend analysis
-- Profit trend analysis
-- Regional performance analysis
-- Market contribution analysis
-- Customer segment analysis
-- Product profitability analysis
-- Discount impact analysis
-- Forecasting analysis
-- Executive summary and business recommendations
+One of the biggest takeaways from this project is that building a dashboard is only one part of Business Intelligence. The real value comes from understanding the business, asking the right questions, and turning data into recommendations that stakeholders can act on.
 
 ---
-
-# 💡 Key Business Insights
-
-Some important findings from the analysis include:
-
-- Sales show an overall positive growth trend over multiple years.
-- Certain markets contribute significantly higher revenue than others.
-- High discounts do not always increase profitability and may reduce margins.
-- Customer segments differ considerably in their contribution to total sales and profit.
-- Several regions consistently generate negative or low profits, indicating opportunities for operational improvement.
-- Product profitability varies significantly across categories and sub-categories.
-
----
-
-# 📊 Dashboard
-
-🚧 **Interactive Looker Studio Dashboard is currently under development and will be added soon.**
-
-The dashboard will include:
-
-- Executive KPI Overview
-- Sales Trend Analysis
-- Profit Trend Analysis
-- Geographic Performance
-- Product Performance
-- Customer Segment Analysis
-- Discount Impact
-- Sales Forecast
-
----
-
-# 📷 Project Preview
-
-Dashboard screenshots and visualizations will be added after completing the interactive dashboard.
-
----
-
-# 🚀 How to Run
-
-1. Clone this repository
-
-```
-git clone https://github.com/risantianjalasari/data-analysis-global-superstore.git
-```
-
-2. Install required packages
-
-```
-pip install -r requirements.txt
-```
-
-3. Open the notebook
-
-```
-notebooks/Global_Superstore_Analysis.ipynb
-```
-
-4. Run all cells.
-
----
-
-# 📁 Dataset
-
-Dataset used:
-
-Global Superstore Sales Dataset
-
-The dataset contains transactional sales records including:
-
-- Orders
-- Customers
-- Products
-- Markets
-- Countries
-- Sales
-- Profit
-- Discounts
-- Shipping Information
-
----
-
-# 📚 Skills Demonstrated
-
-- Data Cleaning
-- Data Wrangling
-- Exploratory Data Analysis (EDA)
-- Data Visualization
-- Business Intelligence
-- SQL Querying
-- Forecasting
-- Business Insight Generation
-- Executive Reporting
-- Dashboard Development
-
----
-
-# 🎯 Business Value
-
-This project demonstrates how data analytics can support business decisions by:
-
-- Monitoring business performance
-- Identifying profitable products and markets
-- Understanding customer behavior
-- Evaluating pricing and discount strategies
-- Supporting strategic planning through forecasting
-
----
-
-# 🔜 Future Improvements
-
-- Interactive Looker Studio Dashboard
-- Advanced forecasting models
-- Customer Lifetime Value (CLV) analysis
-- Profit optimization analysis
-- RFM customer segmentation
-- Automated reporting pipeline
-
----
-
-# 👩‍💻 Author
-
-**Risanti Anjalasari**
-
-Aspiring Data Analyst passionate about transforming data into actionable business insights using Python, SQL, and Business Intelligence tools.
-
-LinkedIn: *[https://www.linkedin.com/in/risanti-anjalasari-aa2a96a2/]*
-
-GitHub: *[https://github.com/risantianjalasari/]*
-
----
-
-## ⭐ If you find this project helpful, feel free to star this repository.
