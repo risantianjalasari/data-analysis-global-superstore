@@ -29,7 +29,7 @@ The analysis focuses on answering questions that are commonly asked by business 
 ---
 
 # Project Workflow
-
+```text
 Raw Dataset (CSV)
         │
         ▼
@@ -52,7 +52,7 @@ Looker Studio Dashboard
         │
         ▼
 Business Recommendations
-
+```
 ---
 
 # Tools Used
