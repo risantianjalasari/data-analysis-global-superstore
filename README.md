@@ -1,4 +1,4 @@
-# Global Superstore Business Intelligence Analysis
+# Global Superstore Analysis
 
 > **End-to-End Business Intelligence Project using Python, SQL, Google Sheets, and Looker Studio**
 
