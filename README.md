@@ -122,7 +122,8 @@ Based on the analysis, several opportunities could help improve business perform
 
 # Dashboard Preview
 
-🚧 **Interactive Looker Studio Dashboard is currently under development and will be added soon.*
+<img width="852" height="482" alt="Screenshot 2026-07-14 at 09 50 35" src="https://github.com/user-attachments/assets/c22451e3-acd6-4654-bf3d-34fcd664a530" />
+
 
 Suggested sections:
 
@@ -188,3 +189,18 @@ This project allowed me to apply an end-to-end Business Intelligence workflow, i
 One of the biggest takeaways from this project is that building a dashboard is only one part of Business Intelligence. The real value comes from understanding the business, asking the right questions, and turning data into recommendations that stakeholders can act on.
 
 ---
+👩‍💻 Author
+
+**Risanti Anjalasari**
+
+Aspiring Data Analyst passionate about transforming data into actionable business insights using Python, SQL, and Business Intelligence tools.
+
+LinkedIn: *[https://www.linkedin.com/in/risanti-anjalasari-aa2a96a2/]*
+
+GitHub: *[https://github.com/risantianjalasari/]*
+
+Visualization : *[https://datastudio.google.com/reporting/85a52b43-a436-4b83-a2ca-9b83dabf2b5c]*
+
+---
+
+## ⭐ If you find this project helpful, feel free to star this repository.
